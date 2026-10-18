@@ -98,3 +98,8 @@ html,body{overflow-x:hidden}
 .hero-bg .btn.line{background:transparent;color:#fff;border-color:#fff;box-shadow:4px 4px 0 var(--red)}
 .hero-bg .badge{position:absolute;right:max(24px,calc((100vw - var(--w))/2 + 24px));bottom:32px;left:auto;transform:rotate(8deg)}
 @media(max-width:900px){.hero-bg{background:linear-gradient(180deg,rgba(18,14,12,.82) 0%,rgba(18,14,12,.7) 100%),url(hero-bg.webp) 70% center/cover no-repeat;padding:56px 0;min-height:0}.hero-bg .badge{display:none}}
+/* contact background photo */
+.contact{background:linear-gradient(90deg,rgba(16,12,10,.9) 0%,rgba(16,12,10,.8) 45%,rgba(16,12,10,.6) 100%),url(contact-bg.webp) center/cover no-repeat}
+.contact .cl li{border-top-color:rgba(255,255,255,.28)}.contact .cl span{color:#e3dac8}
+.contact .form{box-shadow:0 20px 50px rgba(0,0,0,.45)}
+@media(max-width:900px){.contact{background:linear-gradient(180deg,rgba(16,12,10,.88),rgba(16,12,10,.82)),url(contact-bg.webp) 60% center/cover no-repeat}}
